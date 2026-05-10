@@ -33,7 +33,7 @@ export default function Home() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl mx-auto"
           >
-            Connect, compete, and grow. Ditch the endless WhatsApp chatter and join the centralized hub for all PCH sports events, profiles, and community action.
+            Connect, compete, and grow. Join the centralized hub for all PCH sports events, profiles, and community action.
           </motion.p>
 
           <motion.div 
