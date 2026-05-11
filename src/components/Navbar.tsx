@@ -13,6 +13,7 @@ export function Navbar() {
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "About Us", href: "/about" },
+    { name: "Meetups", href: "/meetups" },
   ];
 
   return (
@@ -50,12 +51,6 @@ export function Navbar() {
                   )}
                 </Link>
               ))}
-              <Link 
-                href="/login"
-                className="ml-4 px-4 py-2 rounded-full bg-primary/10 text-primary border border-primary/20 hover:bg-primary hover:text-white transition-all duration-300 font-medium text-sm"
-              >
-                Sign In
-              </Link>
             </div>
           </div>
 
@@ -91,13 +86,6 @@ export function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <Link
-              href="/login"
-              className="block mt-4 px-3 py-2 rounded-md text-base font-medium text-primary bg-primary/10 hover:bg-primary/20"
-              onClick={() => setIsOpen(false)}
-            >
-              Sign In
-            </Link>
           </div>
         </motion.div>
       )}

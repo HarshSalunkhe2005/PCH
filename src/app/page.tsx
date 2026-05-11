@@ -43,12 +43,12 @@ export default function Home() {
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <Link 
-              href="/login"
+              href="/meetups"
               className="group relative px-8 py-4 bg-white text-black font-semibold rounded-full overflow-hidden w-full sm:w-auto"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
               <span className="flex items-center justify-center gap-2">
-                Join Community
+                Discover Meetups
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </span>
             </Link>
@@ -93,7 +93,7 @@ export default function Home() {
             </motion.a>
 
             <motion.a
-              href="https://instagram.com"
+              href="https://www.instagram.com/punechesshangouts/"
               target="_blank"
               rel="noreferrer"
               whileHover={{ y: -5 }}
